@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main()
+{
+double  num1,num2,assign;
+print("enter num1 and num2 values=");
+scanf("%lf%lf",&num1,&num2);
+assign=num1;
+num1=num2;
+num2=assign;
+printf("After swapping the num1=%lf\n",num1);
+printf("After swapping the num2=%lf",num2);
+
+}
