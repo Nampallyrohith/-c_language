@@ -1,0 +1,27 @@
+#include <stdio.h>
+void main()
+{
+    int i;
+    printf("enter any number =");
+    scanf("%d",&i);
+    switch(i)
+    {
+        case 1:
+        printf("you picked up pizza,\n Rs 239");
+        break ;
+        case 2:
+        printf("you picked up burger,\n Rs 129");
+        break ;
+        case 3:
+         printf("you picked up pasta,\n Rs 179");
+        break ;
+        case 4:
+         printf("you picked up freench fries,\n Rs 99");
+        break ;
+        case 5:
+         printf("you picked up sandwich,\n Rs 149");
+        break ;
+        default :
+        printf("invalid choice");
+    }
+}
